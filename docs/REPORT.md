@@ -6,10 +6,10 @@
 
 - **Nama Kelompok:** _isi di sini_
 - **Anggota:**
-  1. _Nama — NIM — varian yang dikerjakan_
-  2. _Nama — NIM — varian yang dikerjakan_
-  3. _Nama — NIM — varian yang dikerjakan_
-  4. _Nama — NIM — varian yang dikerjakan_
+  1. Nico Andreas — 322300126 — 01_Single_Layer
+  2. Sonny Jong — 32230088 — 02_mlp_sigmoid
+  3. Renaldy Rantalulo — 32230132 — 03_mlp_tanh
+  4. Jonathan — 32230109 — 04_mlp_relu
 
 ---
 
