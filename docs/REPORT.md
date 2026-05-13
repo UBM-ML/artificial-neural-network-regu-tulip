@@ -61,8 +61,8 @@ Cara Mengatasi Masalah
 Untuk mengatasi kendala teknis, kami menyepakati sebuah standar template notebook di awal kerja sehingga struktur data yang dihasilkan konsisten. Kami juga berbagi skrip otomasi sederhana untuk melakukan clone dan push hasil ke GitHub agar proses integrasi lebih mulus. Untuk kendala non-teknis, kami menggunakan platform pesan instan secara intensif untuk melakukan update progres secara berkala dan menentukan tenggat waktu internal (dua hari sebelum pengumpulan resmi) agar ada waktu cukup untuk melakukan perbaikan jika terjadi error pada tahap integrasi.
 
 Pelajaran untuk Proyek Berikutnya
-
 Pelajaran berharga yang kami petik adalah pentingnya standardisasi awal dan kontrol versi. Kami menyadari bahwa dalam proyek machine learning yang melibatkan banyak orang, kesepakatan mengenai arsitektur data dan workflow Git jauh lebih penting daripada sekadar menulis kode itu sendiri. Di masa depan, kami berencana menggunakan alat manajemen proyek yang lebih terstruktur dan melakukan code review antar anggota untuk memastikan kualitas kode dan konsistensi logika pemodelan tetap terjaga sejak awal.
+
 ---
 
 ## 4. Kontribusi Tiap Anggota
