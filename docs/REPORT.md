@@ -49,6 +49,20 @@ _300–500 kata. Ceritakan:_
 - _Bagaimana cara mengatasinya?_
 - _Pelajaran apa yang bisa dibawa ke proyek ML berikutnya?_
 
+Pembagian Tugas
+Dalam mengerjakan proyek perbandingan varian ANN ini, kelompok kami membagi tugas berdasarkan empat varian arsitektur yang harus diuji. Setiap anggota bertanggung jawab penuh atas satu notebook eksperimen: satu anggota mengerjakan Single Layer Perceptron, sementara tiga lainnya masing-masing mengimplementasikan Multi-Layer Perceptron (MLP) dengan fungsi aktivasi yang berbeda (Sigmoid, Tanh, dan ReLU). Setelah eksperimen individual selesai, koordinasi dilakukan untuk mengumpulkan file hasil (.csv) ke dalam repositori GitHub pusat. Satu anggota bertindak sebagai integrator yang menyusun notebook perbandingan akhir untuk melakukan visualisasi gabungan dan analisis lintas model.
+
+Kesulitan yang Muncul
+Kendala Teknis: Salah satu kesulitan utama adalah memastikan format output CSV dari tiap anggota seragam. Pada awalnya, ada perbedaan penamaan kolom (misalnya ada yang menggunakan val_acc sementara yang lain val_accuracy), yang menyebabkan error saat penggabungan data (merging). Selain itu, sinkronisasi folder kerja di Google Colab dengan repositori GitHub memerlukan pemahaman teknis terkait perintah Git yang sempat membingungkan beberapa anggota.
+
+Kendala Non-Teknis: Masalah komunikasi dan manajemen waktu menjadi tantangan tersendiri. Karena setiap anggota memiliki jadwal yang berbeda, sinkronisasi hasil sering kali tertunda, sehingga integrator harus menunggu hingga saat-saat terakhir sebelum bisa memulai analisis gabungan.
+
+Cara Mengatasi Masalah
+Untuk mengatasi kendala teknis, kami menyepakati sebuah standar template notebook di awal kerja sehingga struktur data yang dihasilkan konsisten. Kami juga berbagi skrip otomasi sederhana untuk melakukan clone dan push hasil ke GitHub agar proses integrasi lebih mulus. Untuk kendala non-teknis, kami menggunakan platform pesan instan secara intensif untuk melakukan update progres secara berkala dan menentukan tenggat waktu internal (dua hari sebelum pengumpulan resmi) agar ada waktu cukup untuk melakukan perbaikan jika terjadi error pada tahap integrasi.
+
+Pelajaran untuk Proyek Berikutnya
+
+Pelajaran berharga yang kami petik adalah pentingnya standardisasi awal dan kontrol versi. Kami menyadari bahwa dalam proyek machine learning yang melibatkan banyak orang, kesepakatan mengenai arsitektur data dan workflow Git jauh lebih penting daripada sekadar menulis kode itu sendiri. Di masa depan, kami berencana menggunakan alat manajemen proyek yang lebih terstruktur dan melakukan code review antar anggota untuk memastikan kualitas kode dan konsistensi logika pemodelan tetap terjaga sejak awal.
 ---
 
 ## 4. Kontribusi Tiap Anggota
