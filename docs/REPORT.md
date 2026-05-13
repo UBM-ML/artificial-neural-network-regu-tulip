@@ -19,7 +19,7 @@ _Tabel hasil akhir dari notebook `05_comparison.ipynb`. Boleh copy-paste tabel m
 
 | Varian | Arsitektur | Aktivasi | Test Accuracy | Test Loss | Jumlah Parameter |
 |---|---|---|---|---|---|
-| 01 | Single layer | — | _isi_ | _isi_ | _isi_ |
+| 01 | Single layer | — | 0.7667 | 0.5789 | 15 |
 | 02 | 1 hidden (16) | Sigmoid | _isi_ | _isi_ | _isi_ |
 | 03 | 1 hidden (16) | Tanh | 0.9333 | 0.1463 | 131 |
 | 04 | 2 hidden (32→16) | ReLU | _isi_ | _isi_ | _isi_ |
